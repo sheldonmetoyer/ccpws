@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'brandon';
-    src: url('/fonts/BrandonGrotesque-Regular.otf');
+    src: url('../fonts/BrandonGrotesque-Regular.otf');
     /* font-weight: normal; */
     /* font-style: normal; */
 }
@@ -248,7 +248,7 @@ nav #menu-items .open-menu {
     font-weight: bold;
 }
 .card.about {
-    background: url(/images/about.jpeg) no-repeat center center/cover;
+    background: url('../images/about.jpeg') no-repeat center center/cover;
 }
 
 .card.about::after {
@@ -261,7 +261,7 @@ nav #menu-items .open-menu {
     z-index: -1;
 }
 .card.products {
-    background: url(/images/Products.jpg) no-repeat center center/cover;
+    background: url('../images/Products.jpg') no-repeat center center/cover;
 }
 
 .card.products::after {
@@ -276,7 +276,7 @@ nav #menu-items .open-menu {
 }
 
 .card.careers {
-    background: url(/images/work.jpeg) no-repeat center center/cover;
+    background: url('../images/work.jpeg') no-repeat center center/cover;
 }
 
 .card.careers::after {
