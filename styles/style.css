@@ -48,7 +48,11 @@ body {
 
 #main-header{
     height: 100vh;
+<<<<<<< HEAD
     background-image: url('./images/plantfull.jpeg');
+=======
+    background-image: url('images/plantfull.jpeg');
+>>>>>>> 78a6d0e5356f32b6b55c0d954d7aefe07939a29b
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
