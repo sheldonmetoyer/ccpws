@@ -1,12 +1,16 @@
 @font-face {
-    font-family: 'brandon';
-    src: url('../fonts/BrandonGrotesque-Regular.otf');
+    font-family: 'cresta-light';
+    src: url('../fonts/CrestaTest-Light-BF643dfe52a2861.otf');
     /* font-weight: normal; */
     /* font-style: normal; */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+img {
+    pointer-events: none;
 }
 
 
@@ -27,7 +31,7 @@ button {
 * {
     margin: 0;
     padding: 0;
-    font-family: 'brandon';
+    font-family: 'cresta-light', sans-serif;
 }
 
 
@@ -48,7 +52,7 @@ body {
 
 #main-header{
     height: 100vh;
-    background-image: url('../images/plantfull.jpeg');
+    background-image: url('../images/herofr.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -63,7 +67,7 @@ header::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     z-index: 1;
 }
 
@@ -224,7 +228,7 @@ nav #menu-items .open-menu {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contact-info > h1 {
@@ -232,8 +236,14 @@ nav #menu-items .open-menu {
 
 }
 
-.contact-info > p {
+.contact-info p {
     font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    flex: 1;
+    margin-top: 20px;
 }
 
 .contact-info > .questions {
@@ -315,22 +325,19 @@ nav #menu-items .open-menu {
 .product {
     display: flex;
     color: white;
-    gap: 10px;
     margin: 10px 0 5rem 0;
 
 }
 
 .product.reverse {
     flex-direction: row-reverse;
-    gap: 10px;
-    margin: 10px 0 5rem 0;
 }
 
 .product img {
-    display: flex;
     width: 50%;
-    /* margin: 0 auto; */
+
 }
+
 
 .products-summary {
     width: 50%; 
@@ -340,7 +347,6 @@ nav #menu-items .open-menu {
     justify-content: space-around;
     background-color: var(--primary-color);
     margin: 0 auto;
-    /* margin-bottom: 2rem; */
 
 }
 
@@ -518,6 +524,10 @@ footer {
     .contact-info {
         width: 100%;
         margin: 50px 0;
+    }
+
+    .contact-info h1 {
+        font-size: 2rem;
     }
 
     iframe {
