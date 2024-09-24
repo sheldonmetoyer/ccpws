@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'cresta-light';
+    src: url('../fonts/CrestaTest-Light-BF643dfe52a2861.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'cresta-light', sans-serif;
+}
+
+
+.page-container {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin: 100px 0;
+}
+
+@media (max-width: 768px) {
+
+    .page-container {
+	max-width: 90%;
+    }
+
+    img {
+   	width: 80%;
+    }
+}

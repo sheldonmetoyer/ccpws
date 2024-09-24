@@ -15,3 +15,4 @@ function closeSidebar() {
 showButton.addEventListener('click', showSidebar);
 
 closeButton.addEventListener('click', closeSidebar);
+
