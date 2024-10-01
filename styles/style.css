@@ -496,8 +496,16 @@ footer {
         margin: 20px 0;
     }
 
+    .card:hover {
+        transform: scale(1);
+    }
+
     .product {
         flex-direction: column;
+    }
+
+    .product-link {
+        padding: 20px;
     }
 
     .product.reverse {
